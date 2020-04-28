@@ -4,3 +4,7 @@ var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 function destructivelyAppendKitten (element) {
   kittens.push(element)
 }
+
+function destructivelyPrependKitten (element) {
+  kittens.unshift(element)
+}
