@@ -21,3 +21,12 @@ function appendKitten (name) {
   var arrayNew = [...kittens, name]
   return arrayNew
 }
+
+function prependKitten (name) {
+  var arrayNew = [name, ...kittens]
+  return arrayNew
+}
+
+function removeLastKitten () {
+  var arrayNew = kittens.slice(0,-1)
+}
